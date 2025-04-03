@@ -81,8 +81,9 @@ hdfs dfs -put data/* /students/p6emiasd2025/<your_username>/data
 
 ### Step 4 – Upload the Iris App JAR to Your Workspace
 
+From your local machine, copy the JAR file `target/scala-2.12/iris_2.12-0.1.jar`
 ```bash
-scp -P 5022 -i <your_key> iris_2.12-0.1.jar <your_username>@ssh.lamsade.dauphine.fr:~/workspace
+scp -P 5022 -i <your_key> target/scala-2.12/iris_2.12-0.1.jar <your_username>@ssh.lamsade.dauphine.fr:~/workspace
 ```
 
 ### Step 5 – Run the Spark Application
