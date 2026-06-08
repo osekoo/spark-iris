@@ -75,8 +75,8 @@ ssh -p 5022 -i <your_key> <your_username>@ssh.lamsade.dauphine.fr
 Then, upload the data to hdfs:
 ```bash
 cd ~/workspace
-hdfs dfs -mkdir -p /students/p6emiasd2025/<your_username>/data
-hdfs dfs -put data/* /students/p6emiasd2025/<your_username>/data
+hdfs dfs -mkdir -p /students/emiasd7/<your_username>/data
+hdfs dfs -put data/* /students/emiasd7/<your_username>/data
 ```
 
 ### Step 4 – Upload the Iris App JAR to Your Workspace
